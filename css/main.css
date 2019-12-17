@@ -1,0 +1,47 @@
+h1, p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+form * {
+  margin: 0 10px;
+}
+
+#news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.top-headlines {
+  width: 40%;
+  margin: 5px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.source {
+  padding: 20px;
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+}
+
+a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
